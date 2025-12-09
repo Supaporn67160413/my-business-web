@@ -3,7 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Contact</title>
   </head>
-  <body></body>
+  <body>
+    <!-- ฟอร์มติดต่อ -->
+    <h1>ติดต่อ Admin</h1>
+    <form action="/register" method="POST">
+      <fieldset>
+        <legend>ข้อมูลส่วนตัว</legend>
+
+        <label for="fullname">ชื่อ:</label>
+        <input type="text" id="fullname" name="fullname" required />
+
+        <label for="email">อีเมล:</label>
+        <input type="email" id="email" name="email" required />
+
+        <br />
+        <label for="message">รายละเอียด:</label>
+        <br />
+        <textarea id="message" name="message" rows="5" cols="50"></textarea>
+      </fieldset>
+      <button type="submit">ส่งข้อมูล</button>
+      <button type="reset">ยกเลิก</button>
+    </form>
+  </body>
 </html>
