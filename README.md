@@ -37,8 +37,11 @@ my-business-web
 ### 1. หน้าแรก
 
 **ก่อนแก้ไข**
+<br/>
 ![รูปหน้าแรกของเว็บ](images/screen-home.png)
+<br/>
 **หลังแก้ไข**
+<br/>
 ![รูปหน้าแรกของเว็บ](images/screen-home-after01.png)
 ![รูปหน้าแรกของเว็บ](images/screen-home-after02.png)
 
