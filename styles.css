@@ -66,9 +66,9 @@ a:hover {
 }
 
 /*====================
-    Navbar - Flexbox
+    Header - Flexbox
   ====================*/
-nav {
+#header {
   display: flex; /*การแสดงผลแบบ flex*/
   justify-content: space-between; /*อยู่ชิดด้านข้างทั้งสองฝั่ง*/
   align-items: center; /*อยู่ระหว่างบรรทัด*/
