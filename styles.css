@@ -82,8 +82,8 @@ nav {
 
 .logo {
   display: flex; /*แสดงผลแบบ flex*/
-  color: black; /*สีข้อความ*/
-  font-size: 1.5rem;
+  color: #411e03; /*สีข้อความ*/
+  font-size: 2rem;
   font-weight: bold;
   align-items: center;
   gap: 20px;
@@ -93,4 +93,10 @@ nav {
   width: 80px;
   height: 80px;
   border-radius: 50%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 3rem; /*ช่องว่างระหว่างกัน*/
+  list-style: none; /*ไม่มีจุดข้างหน้า*/
 }
