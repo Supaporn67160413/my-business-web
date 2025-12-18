@@ -160,12 +160,18 @@ a:hover {
   ====================*/
 .services {
   flex: 1;
+  padding: 4rem 2rem;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .services-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
+  list-style: none;
 }
 
 .services-card {
