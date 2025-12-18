@@ -72,7 +72,7 @@ nav {
   display: flex; /*การแสดงผลแบบ flex*/
   justify-content: space-between; /*อยู่ชิดด้านข้างทั้งสองฝั่ง*/
   align-items: center; /*อยู่ระหว่างบรรทัด*/
-  background-color: rgb(255, 243, 216); /*สีพื้นหลัง*/
+  background-color: #fcfaf5; /*สีพื้นหลัง*/
   padding: 15px 20px; /*ขนาด padding*/
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /*เส้นขอบ*/
   position: sticky; /*อยู่ที่เดิมเวาลาเลื่อน*/
@@ -99,4 +99,47 @@ nav {
   display: flex;
   gap: 3rem; /*ช่องว่างระหว่างกัน*/
   list-style: none; /*ไม่มีจุดข้างหน้า*/
+}
+
+/*====================
+ Hero Section - Flexbox
+  ====================*/
+.hero {
+  display: flex;
+  flex-direction: column; /*เรียงกันแบบคอลัมน์*/
+  justify-content: center;
+  align-items: center; /*อยู่ตรงกลาง*/
+  background: linear-gradient(180deg, #ffffff 0%, #d7cdc1 100%); /*ผสมสี*/
+  color: #411e03; /*สีตัวอักษร*/
+  padding: 4rem 2rem;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.hero h1 {
+  font-size: 3rem; /*ขนาดตัวอักษรใหญ่กว่า 3 เท่า*/
+  margin-bottom: 1rem; /*ขนาดห่างกับด้านล่าง 1 เท่า*/
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9; /*ความโปร่งใส*/
+}
+
+.hero-btn {
+  background: white; /*สีพื้นหลัง*/
+  color: #411e03; /*สีตัวอักษร*/
+  padding: 0.8rem 2rem;
+  font-size: 1rem; /*ขนาดตัวอักษร*/
+  border: none; /*ไม่มีเส้นขอบ*/
+  border-radius: 5%; /*ความโค้ง*/
+  cursor: pointer; /*เวลาเมาส์ชี้เป็นรูปมือกด*/
+  transition: background 0.3s;
+}
+
+.hero-btn:hover {
+  background: #5d4037;
+  color: white;
+  transition: 0.3s;
 }
