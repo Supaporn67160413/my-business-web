@@ -145,3 +145,36 @@ nav {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+/*====================
+ Services Section - Flexbox
+  ====================*/
+.services {
+  flex: 1;
+}
+
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.services-card {
+  flex: 1 1 calc(50% - 0.75rem); /*กว้างตามขนาดจอ*/
+  border: 1px solid #d7cdc1; /*เส้นขอบ*/
+  border-radius: 10px; /*ความโค้ง*/
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+
+.services-card:hover {
+  transform: translateY(-5px); /*ลอยขึ้น*/
+  box-shadow: 0 10px 20px rgba(65, 30, 3, 0.15);
+  border-color: #8a895f;
+}
+
+.services-card h3 {
+  border-color: rgba(215, 205, 193, 0.2);
+  margin-bottom: 1rem;
+}
