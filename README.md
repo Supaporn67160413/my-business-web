@@ -43,28 +43,41 @@ my-business-web
 **หลังแก้ไข**
 <br/>
 ![รูปหน้าแรกของเว็บ](images/screen-home-after01.png)
+<br/>
 ![รูปหน้าแรกของเว็บ](images/screen-home-after02.png)
 
 ### 2. เกี่ยวกับ
 
 **ก่อนแก้ไข**
+<br/>
 ![รูปหน้าเกี่ยวกับ](images/screen-about.png)
+<br/>
 **หลังแก้ไข**
+<br/>
 ![รูปหน้าเกี่ยวกับ](images/screen-about-after.png)
+<br/>
 
 ### 3. บริการ
 
 **ก่อนแก้ไข**
+<br/>
 ![รูปหน้าบริการ](images/screen-services.png)
+<br/>
 **หลังแก้ไข**
+<br/>
 ![รูปหน้าบริการ](images/screen-services-after.png)
+<br/>
 
 ### 4. ติดต่อ
 
 **ก่อนแก้ไข**
+<br/>
 ![รูปหน้าติดต่อ](images/screen-contact.png)
+<br/>
 **หลังแก้ไข**
+<br/>
 ![รูปหน้าติดต่อ](images/screen-contact-after.png)
+<br/>
 
 ## ลิงค์เข้าสู่หน้าต่าง
 
