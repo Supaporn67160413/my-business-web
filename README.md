@@ -10,35 +10,58 @@ my-business-web
 ├── about.html
 ├── services.html
 ├── contact.html
+├── css/
+│   └── styles.css
+│
 ├── images/
 │   ├── logo.png
 │   ├── screen-about.png
 │   ├── screen-contact.png
 │   ├── screen-home.png
 │   ├── screen-services.png
-│   ├── team-member-1.jpg
-│   └── WELCOME.png
+│   ├── team-member-1.png
+│   ├── team-member-2.png
+│   ├── team-member-3.png
+│   ├── screen-about-after.png
+│   ├── screen-contact-after.png
+│   ├── screen-services-after.png
+│   ├── screen-home-after01.png
+│   └── screen-home-after02.png
 │
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ## รูปหน้าจอทั้งหมด
 
 ### 1. หน้าแรก
 
+**ก่อนแก้ไข**
 ![รูปหน้าแรกของเว็บ](images/screen-home.png)
+**หลังแก้ไข**
+![รูปหน้าแรกของเว็บ](images/screen-home-after01.png)
+![รูปหน้าแรกของเว็บ](images/screen-home-after02.png)
 
 ### 2. เกี่ยวกับ
 
+**ก่อนแก้ไข**
 ![รูปหน้าเกี่ยวกับ](images/screen-about.png)
+**หลังแก้ไข**
+![รูปหน้าเกี่ยวกับ](images/screen-about-after.png)
 
 ### 3. บริการ
 
+**ก่อนแก้ไข**
 ![รูปหน้าบริการ](images/screen-services.png)
+**หลังแก้ไข**
+![รูปหน้าบริการ](images/screen-services-after.png)
 
 ### 4. ติดต่อ
 
+**ก่อนแก้ไข**
 ![รูปหน้าติดต่อ](images/screen-contact.png)
+**หลังแก้ไข**
+![รูปหน้าติดต่อ](images/screen-contact-after.png)
 
 ## ลิงค์เข้าสู่หน้าต่าง
 
@@ -46,3 +69,4 @@ my-business-web
 - [เกี่ยวกับเรา](about.html)
 - [บริการของเรา](services.html)
 - [ติดต่อเรา](contact.html)
+- [CSS](css/styles.css)
