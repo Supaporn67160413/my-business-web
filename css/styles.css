@@ -110,9 +110,7 @@ a:hover {
   list-style: none; /*ไม่มีจุดข้างหน้า*/
 }
 
-/*====================
- Hero Section - Flexbox
-  ====================*/
+/*Hero Section - Flexbox*/
 .hero {
   display: flex;
   flex-direction: column; /*เรียงกันแบบคอลัมน์*/
@@ -445,6 +443,11 @@ form {
 
 #footer hr {
   border-color: rgba(215, 205, 193, 0.2);
+  margin-bottom: 1rem;
+}
+
+#footer a {
+  color: #d7cdc1;
   margin-bottom: 1rem;
 }
 
