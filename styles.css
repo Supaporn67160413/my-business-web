@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 2.5em;
   font-weight: 700;
   color: #411e03;
   text-align: center;
@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 2em;
   color: #5d4037;
   margin-top: 30px;
   margin-bottom: 15px;
@@ -33,27 +33,27 @@ h2 {
 }
 
 h3 {
-  font-size: 2.5em;
+  font-size: 1.5em;
   color: #846851;
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
 h4 {
-  font-size: 2em;
+  font-size: 1.25em;
   color: #8a895f;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 1em;
   color: #333333;
   line-height: 1.6;
 }
 
 a {
-  font-size: 1.2em;
+  font-size: 1em;
   color: #411e03;
   text-decoration: none;
   font-weight: bold;
