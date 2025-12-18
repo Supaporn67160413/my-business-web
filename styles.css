@@ -1,6 +1,6 @@
-/*====================
-  Reset & Global Styles
-  ====================*/
+/*========================
+  RESET & DEFAULTS
+  ======================== */
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +16,9 @@ body {
   line-height: 1.6;
   color: #333;
 }
+/*========================
+  TYPOGRAPHY
+  ======================== */
 
 h1 {
   font-size: 2.5em;
@@ -70,9 +73,10 @@ a:hover {
   text-decoration: underline;
 }
 
-/*====================
-    Header - Flexbox
-  ====================*/
+/*========================
+  LAYOUT & CONTAINERS
+  ======================== */
+/* Header - Flexbox */
 #header {
   display: flex; /*การแสดงผลแบบ flex*/
   justify-content: space-between; /*อยู่ชิดด้านข้างทั้งสองฝั่ง*/
@@ -152,7 +156,7 @@ a:hover {
 }
 
 /*====================
- Services Section - Flexbox
+ Services Section
   ====================*/
 .services {
   flex: 1;
@@ -185,7 +189,7 @@ a:hover {
 }
 
 /*====================
-    Footer - Flexbox
+  Footer
   ====================*/
 #footer {
   background-color: #411e03;
