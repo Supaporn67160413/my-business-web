@@ -7,10 +7,25 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <header id="top">
+      <!-- ส่วนของเมนูนำทาง -->
+      <nav id="header">
+        <div class="logo">
+          <img src="images/logo.png" alt="โลโก้Notely" height="200px" />
+          Notely
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">หน้าแรก</a></li>
+          <li><a href="about.html">เกี่ยวกับ</a></li>
+          <li><a href="services.html">บริการ</a></li>
+          <li><a href="contact.html">ติดต่อ</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
       <!-- เรื่องราวของบริษัท -->
       <section>
-        <h1>จุดเริ่มต้นของ Notely</h1>
+        <h2>จุดเริ่มต้นของ Notely</h2>
         <p>
           Notely เกิดจากความสนใจของผู้พัฒนาในการจดบันทึกและสรุปบทเรียน
           ทุกครั้งที่ผู้พัฒนาได้จัดระเบียบเนื้อหาให้อ่านง่าย
@@ -29,7 +44,7 @@
       </section>
       <!-- ทีมงาน -->
       <section>
-        <h1>ทีมงาน Notely</h1>
+        <h2>ทีมงาน Notely</h2>
         <figure>
           <img src="images/team-member-1.jpg" alt="รูป CEO" width="30%" />
           <figcaption>
@@ -41,12 +56,12 @@
       </section>
       <!-- Mission/Vision -->
       <section>
-        <h1>วิสัยทัศน์และพันธกิจ</h1>
-        <h2>Vision(วิสัยทัศน์)</h2>
+        <h2>วิสัยทัศน์และพันธกิจ</h2>
+        <h3>Vision(วิสัยทัศน์)</h3>
         <p>
           เป็นแหล่งรวบรวมสรุปบทเรียนที่ใหญ่และเข้าถึงง่ายที่สุดสำหรับนักเรียนไทย
         </p>
-        <h2>Mission(พันธกิจ)</h2>
+        <h3>Mission(พันธกิจ)</h3>
         <ul>
           <li>รวบรวมสรุปคุณภาพดี อ่านง่าย สามารถทำความเข้าใจได้อย่างรวดเร็ว</li>
           <li>สร้างรายได้เสริมให้นักเรียนที่มีความสามารถในการจดบันทึก</li>
@@ -56,9 +71,12 @@
       <hr />
       <a href="index.html">กลับหน้าแรก</a>
     </main>
-    <footer>
-      <p>&copy; 2024 Notely. สงวนลิขสิทธิ์.</p>
+    <a href="#top" class="back-to-top">↑</a>
+    <footer id="footer">
+      <hr />
       <p>ติดต่อเรา: 67160413@go.buu.ac.th | โทร: 0948712712</p>
+      <p>&copy; 2025 Notely. สงวนลิขสิทธิ์.</p>
+      <hr />
     </footer>
   </body>
 </html>
