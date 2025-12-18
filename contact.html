@@ -22,31 +22,43 @@
       </ul>
     </nav>
     <main>
-      <section>
+      <section class="section">
+        <section class="contact-section">
+          <h1>ติดต่อเรา</h1>
+          <p>
+            หากมีข้อสงสัยหรือต้องการสอบถามข้อมูลเพิ่มเติม
+            สามารถส่งข้อความหาเราได้เลย
+          </p>
+        </section>
+
+        <h2>ส่งข้อความถึง Admin</h2>
         <!-- ฟอร์มติดต่อ -->
-        <h1>ติดต่อ Admin</h1>
-        <form action="/register" method="POST">
-          <fieldset>
-            <legend>ข้อมูลส่วนตัว</legend>
+        <section class="container">
+          <form action="/register" method="POST">
+            <div class="form-group">
+              <label for="fullname">ชื่อ:</label>
+              <input type="text" id="fullname" name="fullname" required />
+            </div>
+            <div class="form-group">
+              <label for="email">อีเมล:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">รายละเอียด:</label>
+            </div>
 
-            <label for="fullname">ชื่อ:</label>
-            <input type="text" id="fullname" name="fullname" required />
-
-            <label for="email">อีเมล:</label>
-            <input type="email" id="email" name="email" required />
-
-            <br />
-            <label for="message">รายละเอียด:</label>
-            <br />
-            <textarea id="message" name="message" rows="5" cols="50"></textarea>
-          </fieldset>
-          <button type="submit">ส่งข้อมูล</button>
-          <button type="reset">ยกเลิก</button>
-        </form>
+            <div class="form-group">
+              <textarea id="message" name="message"></textarea>
+            </div>
+          </form>
+          <button type="submit" class="btn">ส่งข้อมูล</button>
+          <button type="reset" class="btn">ยกเลิก</button>
+        </section>
       </section>
+
       <!-- ที่อยู่บริษัท -->
-      <section>
-        <h1>ที่อยู่บริษัท</h1>
+      <section class="section">
+        <h2>ที่อยู่บริษัท</h2>
         <p>
           <strong>บริษัท โน๊ตลี่ จำกัด (สำนักงานงานใหญ่)</strong><br />
           169 ถนนลงหาดบางแสน ตำบลแสนสุข อำเภอเมือง จังหวัดชลบุรี 20131
@@ -54,11 +66,11 @@
       </section>
 
       <!-- แผนที่ -->
-      <section>
-        <h1>แผนที่การเดินทาง</h1>
+      <section class="section">
+        <h2>แผนที่การเดินทาง</h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31064.256753796413!2d100.9080719947815!3d13.28593502031112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102b4e7c351968b%3A0xf03d84bc0dd30c0!2sBurapha%20University!5e0!3m2!1sen!2sth!4v1765303346128!5m2!1sen!2sth"
-          width="80%"
+          width="100%"
           height="450"
           style="border: 0"
           allowfullscreen=""
