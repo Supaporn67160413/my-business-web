@@ -7,27 +7,43 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <header id="top"></header>
+    <!-- ส่วนของเมนูนำทาง -->
+    <nav id="header">
+      <div class="logo">
+        <img src="images/logo.png" alt="โลโก้Notely" />
+        Notely
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">หน้าแรก</a></li>
+        <li><a href="about.html">เกี่ยวกับ</a></li>
+        <li><a href="services.html">บริการ</a></li>
+        <li><a href="contact.html">ติดต่อ</a></li>
+      </ul>
+    </nav>
     <main>
-      <!-- ฟอร์มติดต่อ -->
-      <h1>ติดต่อ Admin</h1>
-      <form action="/register" method="POST">
-        <fieldset>
-          <legend>ข้อมูลส่วนตัว</legend>
+      <section>
+        <!-- ฟอร์มติดต่อ -->
+        <h1>ติดต่อ Admin</h1>
+        <form action="/register" method="POST">
+          <fieldset>
+            <legend>ข้อมูลส่วนตัว</legend>
 
-          <label for="fullname">ชื่อ:</label>
-          <input type="text" id="fullname" name="fullname" required />
+            <label for="fullname">ชื่อ:</label>
+            <input type="text" id="fullname" name="fullname" required />
 
-          <label for="email">อีเมล:</label>
-          <input type="email" id="email" name="email" required />
+            <label for="email">อีเมล:</label>
+            <input type="email" id="email" name="email" required />
 
-          <br />
-          <label for="message">รายละเอียด:</label>
-          <br />
-          <textarea id="message" name="message" rows="5" cols="50"></textarea>
-        </fieldset>
-        <button type="submit">ส่งข้อมูล</button>
-        <button type="reset">ยกเลิก</button>
-      </form>
+            <br />
+            <label for="message">รายละเอียด:</label>
+            <br />
+            <textarea id="message" name="message" rows="5" cols="50"></textarea>
+          </fieldset>
+          <button type="submit">ส่งข้อมูล</button>
+          <button type="reset">ยกเลิก</button>
+        </form>
+      </section>
       <!-- ที่อยู่บริษัท -->
       <section>
         <h1>ที่อยู่บริษัท</h1>
@@ -52,11 +68,13 @@
       </section>
       <!-- Link กลับหน้าแรก -->
       <hr />
-      <a href="index.html">กลับหน้าแรก</a>
     </main>
-    <footer>
-      <p>&copy; 2024 Notely. สงวนลิขสิทธิ์.</p>
+    <a href="#top" class="back-to-top">↑</a>
+    <footer id="footer">
+      <hr />
       <p>ติดต่อเรา: 67160413@go.buu.ac.th | โทร: 0948712712</p>
+      <p>&copy; 2025 Notely. สงวนลิขสิทธิ์.</p>
+      <hr />
     </footer>
   </body>
 </html>
