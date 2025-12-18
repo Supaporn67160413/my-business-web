@@ -178,3 +178,25 @@ a:hover {
   border-color: rgba(215, 205, 193, 0.2);
   margin-bottom: 1rem;
 }
+
+/*====================
+    Footer - Flexbox
+  ====================*/
+#footer {
+  background-color: #411e03;
+  color: #d7cdc1;
+  text-align: center;
+  padding: 2rem;
+  margin-top: auto;
+}
+
+#footer p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #d7cdc1;
+}
+
+#footer hr {
+  border-color: rgba(215, 205, 193, 0.2);
+  margin-bottom: 1rem;
+}
